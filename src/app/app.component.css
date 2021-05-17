@@ -1,0 +1,25 @@
+.personajes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: auto;
+}
+
+.personaje {
+  border: 3px solid lightgrey;
+  padding: 5px;
+  width: 100px;
+  margin: 5px;
+}
+
+.personaje img {
+  width: 100%;
+}
+
+.vivo {
+  border-color: lightgreen;
+}
+
+.muerto {
+  border-color: tomato;
+}
